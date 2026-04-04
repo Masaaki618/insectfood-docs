@@ -1,5 +1,12 @@
 # 昆虫食初心者ガイド
 
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)
+![Go](https://img.shields.io/badge/Go-1.x-00ADD8?logo=go&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-Haiku_4.5-FF6B35?logo=anthropic&logoColor=white)
+![TiDB](https://img.shields.io/badge/TiDB-Cloud-E94E1B?logo=tidb&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-4285F4?logo=googlecloud&logoColor=white)
+
 昆虫食に興味があるけど、何から始めたらいいかわからない初心者向けの診断アプリです。
 3つの耐性スコアをもとにAIがあなたにぴったりの昆虫食をレコメンドします。
 
