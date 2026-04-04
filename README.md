@@ -18,6 +18,8 @@
 - **インフラ刷新**：AWS → Google Cloud Run + TiDB Cloud
 
 > 📝 前バージョンの開発記事：[【個人開発】少しでも昆虫に興味をもって食べてみたくなるような診断サービスを作った。](https://qiita.com/masaaki_618/items/13efc16f16164e8ac89a)
+>
+> 📋 前バージョンの設計書：[Insect-Food アプリケーション概要（HackMD）](https://hackmd.io/@masaaki-618/SJUZV_l6q)
 
 ---
 
