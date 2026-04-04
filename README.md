@@ -72,35 +72,45 @@ AIがリアルタイムで生成するため、同じスコアでも毎回異な
 ### トップ画面
 アプリの説明・診断の概要・診断開始ボタン
 
-<img width="400" alt="トップ画面" src="https://github.com/user-attachments/assets/d07e073e-2d1e-4446-b4f0-8eed302ffa1d" />
+<div align="center">
+<img width="300" alt="トップ画面" src="https://github.com/user-attachments/assets/d07e073e-2d1e-4446-b4f0-8eed302ffa1d" />
+</div>
 
 ---
 
 ### 診断フロー画面
 6問をはい/いいえで回答。プログレスバーで進捗を表示
 
-<img width="400" alt="診断フロー画面" src="https://github.com/user-attachments/assets/27fd0f2a-eb9d-4a54-b36a-3a4895d66c9e" />
+<div align="center">
+<img width="300" alt="診断フロー画面" src="https://github.com/user-attachments/assets/27fd0f2a-eb9d-4a54-b36a-3a4895d66c9e" />
+</div>
 
 ---
 
 ### 診断結果画面
 AIがレコメンドした昆虫・コメント・詳細への導線を表示
 
-<img width="400" alt="診断結果画面" src="https://github.com/user-attachments/assets/94de2962-204a-46d8-bc68-f5d98328f928" />
+<div align="center">
+<img width="300" alt="診断結果画面" src="https://github.com/user-attachments/assets/94de2962-204a-46d8-bc68-f5d98328f928" />
+</div>
 
 ---
 
 ### 昆虫一覧画面
 登録されている10種類の昆虫をカード形式で一覧表示
 
-<img width="400" alt="昆虫一覧画面" src="https://github.com/user-attachments/assets/235088dd-78e3-49c2-92e9-03ad5e3a0dcc" />
+<div align="center">
+<img width="300" alt="昆虫一覧画面" src="https://github.com/user-attachments/assets/235088dd-78e3-49c2-92e9-03ad5e3a0dcc" />
+</div>
 
 ---
 
 ### 昆虫詳細画面
 昆虫の味・食感・説明・AIコメント・味覚レーダーチャートを表示
 
-<img width="400" alt="昆虫詳細画面" src="https://github.com/user-attachments/assets/6c13b202-3ed5-478c-a3bf-84eb2e74d81c" />
+<div align="center">
+<img width="300" alt="昆虫詳細画面" src="https://github.com/user-attachments/assets/6c13b202-3ed5-478c-a3bf-84eb2e74d81c" />
+</div>
 
 ---
 
