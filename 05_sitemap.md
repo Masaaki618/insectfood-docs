@@ -2,6 +2,16 @@
 
 ---
 
+## 0. モックUI（Bolt.new）
+
+デザイン確認用のプロトタイプURL：
+
+```
+https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3--5173--4c73681d.local-credentialless.webcontainer-api.io/
+```
+
+---
+
 ## 1. 画面一覧
 
 | 画面名     | パス                  | 概要               |
