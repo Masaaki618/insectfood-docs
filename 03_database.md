@@ -27,39 +27,42 @@
 
 | カラム名 | 型 | NULL | 説明 |
 |---|---|---|---|
-| id | BIGINT | NOT NULL | PK |
+| id | BIGINT UNSIGNED | NOT NULL | PK |
 | name | VARCHAR(100) | NOT NULL | 昆虫名 |
-| difficulty | TINYINT | NOT NULL | 難易度（★1〜★5） |
+| difficulty | TINYINT UNSIGNED | NOT NULL | 難易度（★1〜★5） |
 | introduction | TEXT | NOT NULL | 昆虫の説明 |
 | taste | VARCHAR(100) | NOT NULL | 味の説明 |
 | texture | VARCHAR(100) | NOT NULL | 食感の説明 |
 | insect_img | VARCHAR(255) | NULL | 画像URL |
 | created_at | DATETIME | NOT NULL | 作成日時 |
 | updated_at | DATETIME | NOT NULL | 更新日時 |
+| deleted_at | DATETIME(3) | NULL | 論理削除日時 |
 
 ### radar_charts
 
 | カラム名 | 型 | NULL | 説明 |
 |---|---|---|---|
-| id | BIGINT | NOT NULL | PK |
-| insect_id | BIGINT | NOT NULL | FK（insects.id） |
-| umami_score | TINYINT | NOT NULL | 旨味スコア（1〜5） |
-| bitter_score | TINYINT | NOT NULL | 苦味スコア（1〜5） |
-| egu_score | TINYINT | NOT NULL | エグ味スコア（1〜5） |
-| flavor_score | TINYINT | NOT NULL | 風味スコア（1〜5） |
-| kimo_score | TINYINT | NOT NULL | キモみスコア（1〜5） |
+| id | BIGINT UNSIGNED | NOT NULL | PK |
+| insect_id | BIGINT UNSIGNED | NOT NULL | FK（insects.id） |
+| umami_score | TINYINT UNSIGNED | NOT NULL | 旨味スコア（1〜5） |
+| bitter_score | TINYINT UNSIGNED | NOT NULL | 苦味スコア（1〜5） |
+| egu_score | TINYINT UNSIGNED | NOT NULL | エグ味スコア（1〜5） |
+| flavor_score | TINYINT UNSIGNED | NOT NULL | 風味スコア（1〜5） |
+| kimo_score | TINYINT UNSIGNED | NOT NULL | キモみスコア（1〜5） |
 | created_at | DATETIME | NOT NULL | 作成日時 |
 | updated_at | DATETIME | NOT NULL | 更新日時 |
+| deleted_at | DATETIME(3) | NULL | 論理削除日時 |
 
 ### questions
 
 | カラム名 | 型 | NULL | 説明 |
 |---|---|---|---|
-| id | BIGINT | NOT NULL | PK |
+| id | BIGINT UNSIGNED | NOT NULL | PK |
 | body | VARCHAR(255) | NOT NULL | 質問文 |
 | category | ENUM('visual','physical','mental') | NOT NULL | カテゴリ（visual / physical / mental） |
 | created_at | DATETIME | NOT NULL | 作成日時 |
 | updated_at | DATETIME | NOT NULL | 更新日時 |
+| deleted_at | DATETIME(3) | NULL | 論理削除日時 |
 
 **カテゴリ定義**
 
@@ -87,6 +90,7 @@ erDiagram
         VARCHAR insect_img
         DATETIME created_at
         DATETIME updated_at
+        DATETIME deleted_at
     }
 
     radar_charts {
@@ -99,6 +103,7 @@ erDiagram
         TINYINT kimo_score
         DATETIME created_at
         DATETIME updated_at
+        DATETIME deleted_at
     }
 
     questions {
@@ -107,6 +112,7 @@ erDiagram
         VARCHAR category
         DATETIME created_at
         DATETIME updated_at
+        DATETIME deleted_at
     }
 ```
 
@@ -159,7 +165,11 @@ rdb/migrations/
 ├── 000002_create_radar_charts_table.up.sql
 ├── 000002_create_radar_charts_table.down.sql
 ├── 000003_create_questions_table.up.sql
-└── 000003_create_questions_table.down.sql
+├── 000003_create_questions_table.down.sql
+├── 000004_alter_tinyint_to_unsigned.up.sql
+├── 000004_alter_tinyint_to_unsigned.down.sql
+├── 000005_add_deleted_at_columns.up.sql
+└── 000005_add_deleted_at_columns.down.sql
 ```
 
 ### ローカル環境
