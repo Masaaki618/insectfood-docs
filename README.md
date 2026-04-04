@@ -1,0 +1,87 @@
+# 昆虫食初心者ガイド
+
+昆虫食に興味があるけど、何から始めたらいいかわからない初心者向けの診断アプリです。
+3つの耐性スコアをもとにAIがあなたにぴったりの昆虫食をレコメンドします。
+
+---
+
+## こんな人におすすめ
+
+- 昆虫食に興味はあるけど何から始めたらいいかわからない
+- 虫は苦手だけど話のネタに試してみたい
+- 健康・環境に興味がある
+
+---
+
+## 主な機能
+
+| 機能 | 概要 |
+|------|------|
+| 昆虫食診断 | 6問のはい/いいえ形式で3つの耐性スコアを算出 |
+| 診断結果 | AIがあなたにぴったりの昆虫食をレコメンド＆コメント生成 |
+| 昆虫一覧 | 登録されている10種類の昆虫を一覧表示 |
+| 昆虫詳細 | 味・食感・レーダーチャート・AIコメントを表示 |
+
+---
+
+## 画面紹介
+
+### トップ画面
+アプリの説明・診断の概要・診断開始ボタン
+
+<img width="400" alt="トップ画面" src="https://github.com/user-attachments/assets/d07e073e-2d1e-4446-b4f0-8eed302ffa1d" />
+
+---
+
+### 診断フロー画面
+6問をはい/いいえで回答。プログレスバーで進捗を表示
+
+<img width="400" alt="診断フロー画面" src="https://github.com/user-attachments/assets/27fd0f2a-eb9d-4a54-b36a-3a4895d66c9e" />
+
+---
+
+### 診断結果画面
+AIがレコメンドした昆虫・コメント・詳細への導線を表示
+
+<img width="400" alt="診断結果画面" src="https://github.com/user-attachments/assets/94de2962-204a-46d8-bc68-f5d98328f928" />
+
+---
+
+### 昆虫一覧画面
+登録されている10種類の昆虫をカード形式で一覧表示
+
+<img width="400" alt="昆虫一覧画面" src="https://github.com/user-attachments/assets/235088dd-78e3-49c2-92e9-03ad5e3a0dcc" />
+
+---
+
+### 昆虫詳細画面
+昆虫の味・食感・説明・AIコメント・味覚レーダーチャートを表示
+
+<img width="400" alt="昆虫詳細画面" src="https://github.com/user-attachments/assets/6c13b202-3ed5-478c-a3bf-84eb2e74d81c" />
+
+---
+
+## 技術スタック
+
+| カテゴリ | 技術 |
+|---------|------|
+| フロントエンド | Flutter / Dart |
+| 状態管理 | Riverpod |
+| HTTP通信 | dio |
+| 画面遷移 | go_router |
+| グラフ | fl_chart |
+| バックエンド | Go / Gin（Cloud Run） |
+| データベース | TiDB Cloud（MySQL互換） |
+| AI | Claude Haiku 4.5 |
+
+---
+
+## ドキュメント
+
+| ドキュメント | ファイル |
+|------------|--------|
+| 要件定義 | [01_requirements.md](./01_requirements.md) |
+| アーキテクチャ | [02_architecture.md](./02_architecture.md) |
+| DB設計 | [03_database.md](./03_database.md) |
+| API設計 | [04_api.md](./04_api.md) |
+| サイトマップ | [05_sitemap.md](./05_sitemap.md) |
