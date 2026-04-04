@@ -120,35 +120,35 @@ AIがレコメンドした昆虫・コメント・詳細への導線を表示
 
 | ステータス | Issue | 内容 |
 |---------|-------|------|
-| ✅ DONE | #1 | プロジェクト基盤構築（Riverpod・dio・go_router） |
-| ✅ DONE | #2 | テーマ・共通スタイル定義 |
-| 📋 TODO | #3 | 昆虫一覧画面 |
-| 📋 TODO | #4 | 昆虫詳細画面 |
-| 📋 TODO | #5 | 診断フロー画面 |
-| 📋 TODO | #6 | 診断結果画面 |
-| 📋 TODO | #7 | トップ画面 |
-| 📋 TODO | #8 | ローディング・エラーハンドリング |
-| 📋 TODO | #9 | UIレビュー・共通ウィジェット整理 |
-| 📋 TODO | #10 | バックエンド結合確認・リリース準備 |
+| ✅ DONE | [#1](https://github.com/Masaaki618/insectfood-frontend/issues/1) | プロジェクト基盤構築（Riverpod・dio・go_router） |
+| ✅ DONE | [#2](https://github.com/Masaaki618/insectfood-frontend/issues/2) | テーマ・共通スタイル定義 |
+| 📋 TODO | [#3](https://github.com/Masaaki618/insectfood-frontend/issues/3) | 昆虫一覧画面 |
+| 📋 TODO | [#4](https://github.com/Masaaki618/insectfood-frontend/issues/4) | 昆虫詳細画面 |
+| 📋 TODO | [#5](https://github.com/Masaaki618/insectfood-frontend/issues/5) | 診断フロー画面 |
+| 📋 TODO | [#6](https://github.com/Masaaki618/insectfood-frontend/issues/6) | 診断結果画面 |
+| 📋 TODO | [#7](https://github.com/Masaaki618/insectfood-frontend/issues/7) | トップ画面 |
+| 📋 TODO | [#8](https://github.com/Masaaki618/insectfood-frontend/issues/8) | ローディング・エラーハンドリング |
+| 📋 TODO | [#9](https://github.com/Masaaki618/insectfood-frontend/issues/9) | UIレビュー・共通ウィジェット整理 |
+| 📋 TODO | [#10](https://github.com/Masaaki618/insectfood-frontend/issues/10) | バックエンド結合確認・リリース準備 |
 
 ### バックエンド（Go / Gin）
 
 | ステータス | Issue | 内容 |
 |---------|-------|------|
-| ✅ DONE | #1 | ローカル開発環境の構築 |
-| ✅ DONE | #2 | DBマイグレーション基盤構築 |
-| ✅ DONE | #3 | Goプロジェクト骨格実装 |
-| ✅ DONE | #4 | ヘルスチェックAPI（GET /health） |
-| 📋 TODO | #5 | 昆虫一覧API（GET /api/v1/insects） |
-| 📋 TODO | #6 | 昆虫詳細API（GET /api/v1/insects/:id） |
-| 📋 TODO | #7 | 質問取得API（GET /api/v1/questions） |
-| 📋 TODO | #8 | 診断API（POST /api/v1/diagnosis） |
-| 📋 TODO | #9 | Claude APIクライアント実装 |
-| 📋 TODO | #10 | バリデーション・エラーハンドリング |
-| 📋 TODO | #11 | Serviceユニットテスト |
-| 📋 TODO | #12 | Repositoryユニットテスト |
-| 📋 TODO | #13 | Cloud Runデプロイ |
-| 📋 TODO | #14 | TiDB Cloud本番環境構築 |
+| ✅ DONE | [#1](https://github.com/Masaaki618/insectfood-backend/issues/1) | ローカル開発環境の構築 |
+| ✅ DONE | [#2](https://github.com/Masaaki618/insectfood-backend/issues/2) | DBマイグレーション基盤構築 |
+| ✅ DONE | [#3](https://github.com/Masaaki618/insectfood-backend/issues/3) | Goプロジェクト骨格実装 |
+| ✅ DONE | [#4](https://github.com/Masaaki618/insectfood-backend/issues/4) | ヘルスチェックAPI（GET /health） |
+| 📋 TODO | [#5](https://github.com/Masaaki618/insectfood-backend/issues/5) | 昆虫一覧API（GET /api/v1/insects） |
+| 📋 TODO | [#6](https://github.com/Masaaki618/insectfood-backend/issues/6) | 昆虫詳細API（GET /api/v1/insects/:id） |
+| 📋 TODO | [#7](https://github.com/Masaaki618/insectfood-backend/issues/7) | 質問取得API（GET /api/v1/questions） |
+| 📋 TODO | [#8](https://github.com/Masaaki618/insectfood-backend/issues/8) | 診断API（POST /api/v1/diagnosis） |
+| 📋 TODO | [#9](https://github.com/Masaaki618/insectfood-backend/issues/9) | Claude APIクライアント実装 |
+| 📋 TODO | [#10](https://github.com/Masaaki618/insectfood-backend/issues/10) | バリデーション・エラーハンドリング |
+| 📋 TODO | [#11](https://github.com/Masaaki618/insectfood-backend/issues/11) | Serviceユニットテスト |
+| 📋 TODO | [#12](https://github.com/Masaaki618/insectfood-backend/issues/12) | Repositoryユニットテスト |
+| 📋 TODO | [#13](https://github.com/Masaaki618/insectfood-backend/issues/13) | Cloud Runデプロイ |
+| 📋 TODO | [#14](https://github.com/Masaaki618/insectfood-backend/issues/14) | TiDB Cloud本番環境構築 |
 
 ---
 
