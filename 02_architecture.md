@@ -241,5 +241,5 @@ make migrate-down  # 巻き戻し
 - Cloud Run: $0（無料枠内）
 - TiDB Cloud Starter: $0（無料枠内・5GB）
 - Google Cloud Storage: $0（無料枠内・5GB）
-- Claude Haiku 4.5 API: 約$0.02（20人全員が診断した場合の上限）
-- **合計**: 約$0.02/月
+- Claude Haiku 4.5 API: 約$0.05（50人全員が診断した場合の上限）
+- **合計**: 約$0.05/月
