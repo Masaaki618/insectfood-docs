@@ -232,6 +232,7 @@ make migrate-down  # 巻き戻し
 - **MySQL互換（TiDB Cloud）**: 低コスト重視の制約に基づき、MySQL互換で無料枠が5GBと大きいTiDB Cloud Starterを選定
 - **Cloud Run**: サーバーレスのためリクエストがない時のコストがゼロ。無料枠が月200万リクエストと大きく、100人規模の個人開発では十分カバーできるため選定
 - **Claude Haiku 4.5**: コスト・レスポンス速度・品質のバランスがMVPに適しているため選定。上位モデルより大幅に安価で、80〜100文字のコメント生成には十分な性能
+- **Google Cloud Storage**: 画像ストレージとして選定。Cloud RunがGCPベースのため同じGCPで管理を一元化できる。無料枠5GB/月・同一GCP内の転送量無料で、昆虫10種の画像であれば十分にカバーできる
 
 ---
 
@@ -239,5 +240,6 @@ make migrate-down  # 巻き戻し
 
 - Cloud Run: $0（無料枠内）
 - TiDB Cloud Starter: $0（無料枠内・5GB）
+- Google Cloud Storage: $0（無料枠内・5GB）
 - Claude Haiku 4.5 API: 約$0.1（100人全員が診断した場合の上限）
 - **合計**: 約$0.1/月
