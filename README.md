@@ -149,3 +149,12 @@ AIがレコメンドした昆虫・コメント・詳細への導線を表示
 | API設計 | [04_api.md](./04_api.md) |
 | サイトマップ | [05_sitemap.md](./05_sitemap.md) |
 | 開発進行方針 | [06_development_process.md](./06_development_process.md) |
+
+---
+
+## 開発リポジトリ
+
+| リポジトリ | 説明 |
+|-----------|------|
+| [insectfood-frontend](https://github.com/Masaaki618/insectfood-frontend) | Flutter フロントエンド実装 |
+| [insectfood-backend](https://github.com/Masaaki618/insectfood-backend) | Go / Gin バックエンド実装 |
