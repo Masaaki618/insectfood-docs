@@ -75,7 +75,7 @@ graph TD
 |---|---|---|
 | `routers/router.go` | `app.dart` | ルーティング定義 |
 | `controllers/*.go` | `features/*/pages/` | 画面・UI表示 |
-| `services/*.go` | `features/*/providers/` | ビジネスロジック・状態管理 |
+| `services/*.go` | `features/*/services/` | ビジネスロジック・状態管理 |
 | `repositories/*.go` | `features/*/repositories/` | APIアクセス |
 | `repositories/*_interface.go` | `features/*/repositories/*_interface.dart` | 抽象クラス（DI・モック差し替え用） |
 | `models/*.go` | `features/*/models/` | データモデル定義 |
@@ -98,8 +98,8 @@ lib/
 │   │   ├── repositories/                 # repositories/ に対応（APIアクセス）
 │   │   │   ├── insect_repository.dart
 │   │   │   └── insect_repository_interface.dart
-│   │   ├── providers/                    # services/ に対応（ビジネスロジック）
-│   │   │   └── insects_provider.dart
+│   │   ├── services/                    # services/ に対応（ビジネスロジック）
+│   │   │   └── insects_service.dart
 │   │   └── pages/                        # controllers/ に対応（画面）
 │   │       ├── insects_page.dart
 │   │       └── insect_detail_page.dart
@@ -110,7 +110,7 @@ lib/
 │   │   ├── repositories/
 │   │   │   ├── diagnosis_repository.dart
 │   │   │   └── diagnosis_repository_interface.dart
-│   │   ├── providers/
+│   │   ├── services/
 │   │   │   └── diagnosis_provider.dart
 │   │   └── pages/
 │   │       ├── diagnosis_page.dart
@@ -243,3 +243,7 @@ make migrate-down  # 巻き戻し
 - Google Cloud Storage: $0（無料枠内・5GB）
 - Claude Haiku 4.5 API: 約$0.05（50人全員が診断した場合の上限）
 - **合計**: 約$0.05/月
+
+## 開発・運用費用（従量課金）
+
+- Anthropic Claude API: クレジット制（使った分だけ課金）。開発時の初回チャージ $5（約889円）。クレジットが切れたら追加チャージで継続利用可能
